@@ -66,7 +66,7 @@ class DatabaseEnvironment(object):
             self.trans.commit()
 
     def Table(self, table, **kwargs):
-        return Table(table, self.meta, autoload=True, autoload_with=self.engine, **kwargs)
+        return Table(table, self.meta, autoload_with=self.engine, **kwargs)
 
 
 class DatabaseFunction(object):
