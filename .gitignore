@@ -9,6 +9,7 @@ decs/*
 __pycache
 *.egg-info
 .ipynb_checkpoints
+venv
 
 # macOS
 .DS_Store
